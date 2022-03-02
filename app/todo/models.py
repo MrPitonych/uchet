@@ -11,4 +11,4 @@ class Task(models.Model):
         ordering = ["execution_date"]
 
     def __str__(self):
-        return f"{self.pk}) {self.title}"
+        return f"{self.pk} {self.title}"
