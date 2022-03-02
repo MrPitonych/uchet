@@ -155,7 +155,7 @@ CELERY_RESULT_BACKEND = "redis://redis:6379"
 
 # SMTP settings
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = os.environ.get("EMAIL_LOGIN")
-EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL_HOST_USER = "your gmail"
+EMAIL_HOST_PASSWORD = "your password"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
